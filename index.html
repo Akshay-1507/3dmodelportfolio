@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style10.css">
+
+    <style> .block1 {
+        display: flex;
+        width: 100%;
+        height: 98vh;
+    }
+
+    /* Style the left block */
+    .leftblock {
+        background-color: #2e8b57;
+        height:100vh;
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Add some text inside the left block */
+    .leftblock p {
+        color: white;
+        font-size: 99Fpx;
+        font-weight: bold;
+        text-align: center;
+    }
+    .form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .form label {
+            font-size: 16px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .form input {
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            width: 100%;
+        }
+        .joke {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 55px;
+           
+        }
+        .butt {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+        }
+        .butt:hover {
+            background-color: #0056b3;
+        }
+
+        .form submit:hover {
+            background-color: #256a45;
+        }
+        .image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .image img {
+            width: 175px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: #ccc;
+        }
+
+        /* Ensure responsiveness for smaller screens */
+        @media screen and (max-width: 768px) {
+            .block1 {
+                flex-direction: column;
+                height: auto;
+            }
+
+            
+        }
+        /* Style for the submit button */
+        .form submit {
+            background-color: #2e8b57;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+    /* Style the right block */
+    .rightblock {
+        background-color: #fff;
+        height:100vh;
+        width: 65%;
+        padding: 40px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* Center and style the form heading */
+    .mess {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .mess h1 {
+        font-size: 32px;
+        color: #333;
+    }
+        
+        .icon-list {
+            display: flex;
+            flex-wrap: wrap; /* Allows items to wrap to the next line */
+            justify-content: space-around; /* Spaces items evenly */
+            list-style: none;
+            padding: 0;
+            font-size: 24px;
+        }
+        .icon-list li {
+            /* margin: ; Adjust margin for spacing between icons */
+        }
+        .icon-list a {
+            color: #000; /* Change icon color */
+            text-decoration: none; /* Remove underline from links */
+            transition: color 0.3s; /* Transition for hover effect */
+        }
+        .icon-list a:hover {
+            color: #007bff; /* Change color on hover */
+        }
+        .icon-list {
+            display: flex;
+            flex-wrap: wrap; /* Allows items to wrap to the next line */
+            justify-content: space-around; /* Spaces items evenly */
+            list-style: none;
+            padding: 0;
+            font-size: 24px;
+        }
+        .icon-list li {
+            margin: 10px 20px; /* Adjust margin for spacing between icons */
+            text-align: center; 
+        }
+        header h1{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+      <h1>Portfolio.</h1>
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel23">
+        <!-- list item -->
+        <div class="list23">
+            <div class="item23">
+                <img src="360_F_480904267_EMmGECE4mzOvdkQ2DuLFojcjhKPQbf9C.jpg">
+                <div class="content23">
+                    <div class="author23">About Me</div>
+                    <div class="title23">Student</div>
+                    <div class="topic23">Akshay Kanakari</div>
+                    <div class="des23">
+                        <!-- lorem 50 -->
+ I'm an ambitious undergraduate student currently diving deep into web development, eager to grow my knowledge and experience. With a passion for innovation and technology, I’m committed to constantly improving my skills and taking on new challenges. My dedication drives me to stay ahead of the latest industry trends, and I'm always excited to explore fresh opportunities in the tech world, ensuring that I contribute meaningfully to future advancements.                    </div>
+                    <!-- <div class="buttons23">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="item23">
+                <img src="360_F_480904267_EMmGECE4mzOvdkQ2DuLFojcjhKPQbf9C.jpg">
+                <div class="content23">
+                    <div class="author23">Education</div>
+                    <div class="title23">B-Tech</div>
+                    <div class="topic23">Pursuing Graduate</div>
+                    <div class="des23">
+                        I'm currently pursuing a graduate degree at Anurag University, specializing in AI, with a strong passion for web development. I'm eager to expand my knowledge and gain hands-on experience in both fields. My enthusiasm for innovation drives me to embrace new challenges and stay ahead of industry trends, ensuring that I contribute meaningfully to future advancements in technology.                    </div>
+                    <!-- <div class="buttons23">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="item23">
+                <img src="360_F_480904267_EMmGECE4mzOvdkQ2DuLFojcjhKPQbf9C.jpg">
+                <div class="content23">
+                    <div class="author23">Contact Information</div>
+                    <div class="title23">Social</div>
+                    <div class="topic23">Media</div>
+                    <div class="des23">
+                        <ul class="icon-list">
+                            <li><a href="https://github.com/Akshay-1507" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/akshay-kanakari-120a9a2b4/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://x.com/k_akshay07" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/akshayy._.kanakari/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <!-- <li><a href="https://www.netlify.com/" target="_blank"><i class="fab fa-netlify"></i></a></li> Placeholder for Netlify -->
+                            <!-- <li><a href="https://yourwebsite.com" target="_blank"><i class="fas fa-globe"></i></a></li> Placeholder for personal website -->
+                        </ul>                    </div>
+                    <!-- <div class="buttons23">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="item23">
+                <img src="360_F_480904267_EMmGECE4mzOvdkQ2DuLFojcjhKPQbf9C.jpg">
+                <div class="content23">
+                    <div class="author23">Tools</div>
+                    <div class="title23">Used In</div>
+                    <div class="topic23">Projects</div>
+                    <div class="des23">
+                        <ul class="icon-list">
+                            <li><i class="fab fa-java"></i></li>
+                            <li><i class="fab fa-js"></i> </li>
+                            <li><i class="fab fa-html5"></i></li>
+                            <li><i class="fab fa-css3-alt"></i> </li>
+                            <li><i class="fas fa-database"></i></li>
+                            <li><i class="fas fa-database"></i></li> <!-- Using the same database icon for MongoDB -->
+                            <li><i class="fas fa-cloud"></i> </li> <!-- Using Cloud icon as a placeholder -->
+                            <li><i class="fas fa-utensils"></i> </li> <!-- Using Utensils icon as a placeholder -->
+                            <li><i class="fab fa-github"></i> </li>
+                            <li><i class="fab fa-github"></i> </li>
+                            <!-- <li><i class="fas fa-paint-brush"></i></li> Using Paint Brush icon as a placeholder -->
+                            <!-- <li><i class="fas fa-globe"></i></li> Using Globe icon as a placeholder -->
+         
+                        </ul>
+                                       </div>
+                    <!-- <div class="buttons23">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail23">
+            <div class="item23">
+                <img src="R.png">
+                <div class="content23">
+                    <!-- <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div> -->
+                </div>
+            </div>
+            <div class="item23">
+                <img src="akshay pic.jpeg">
+               
+            </div>
+            <div class="item23">
+                <img src="convocation-line-green-and-black-icon-vector.jpg">
+                <div class="content23">
+                    <!-- <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div> -->
+                </div>
+            </div>
+            <div class="item23">
+                <img src="OIP.jpeg">
+                <div class="content23">
+                    <!-- <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows23">
+            <button id="prev23"><</button>
+            <button id="next23">></button>
+        </div>
+        <!-- time running -->
+        <div class="time23"></div>
+    </div>
+
+    
+    <div class="carousel">
+        <div class="list">
+            <div class="item">
+                <img src="DALL·E 2024-09-29 23.47.46 - A close-up illustration of an ESP32 microcontroller connected to piezoelectric sensors placed along a railway track in a mountainous region. The senso.webp">
+                <div class="introduce">
+                    <div class="title">Project 1</div>
+                    <div class="topic">Train Collision Avoidance Using Piezo Sensors</div>
+                    <div class="des">
+                        <!-- 20 lorem -->
+                        A train collision avoidance system using piezoelectric sensors detects obstructions like rocks on railway tracks, preventing accidents. Piezo sensors placed along the tracks sense vibrations or pressure changes caused by falling objects. A microcontroller processes these signals, determining if there's a threat. Upon detection, the system sends alerts to railway authorities or directly triggers train brakes. This solution is ideal for hilly, landslide-prone areas, ensuring safer rail travel by preventing collisions through early detection and automated responses.
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599</button>
+                </div>
+                <div class="detail">
+                    <div class="title">Train Collision Avoidance Using Piezo Sensors</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        The train collision avoidance system utilizes a combination of sensors, data processing, and communication mechanisms to detect potential obstructions on railway tracks and prevent accidents. Piezoelectric sensors are installed along the tracks to monitor vibrations or pressure changes caused by falling rocks or debris. A microcontroller processes the signals from these sensors, analyzing the data to determine if there is a significant threat while filtering out irrelevant disturbances. Upon detection, the system sends alerts to railway control centers and can directly interface with the train’s onboard systems to trigger automatic braking or reduce speed. The use of multiple sensors enhances reliability, ensuring continuous monitoring even if one sensor fails. This comprehensive approach enables real-time tracking of track conditions, significantly improving railway safety by preventing collisions and ensuring passenger security.
+                    </div>
+                    <div class="specifications">
+                        <div>
+                            <p>Domain Name</p>
+                            <p>IOT</p>
+                        </div>
+                        <div>
+                            <p>Detection Method</p>
+                            <p>Piezoelectric Sensors</p>
+                        </div>
+                        <div>
+                            <p>Response Time</p>
+                            <p>Less than 1 second</p>
+                        </div>
+                        <div>
+                            <p>System Reliability</p>
+                            <p>99.9%</p>
+                        </div>
+                        <div>
+                            <p>Power Supply</p>
+                            <p>Solar and Battery Backup</p>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button><a href="https://github.com/Akshay-1507/Train-Avoidance-System">GITHUB</a></button>
+                        <!-- <button>GITHUB</button> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="travelling-illustration_10250-2565.avif">
+                <div class="introduce">
+                    <div class="title">Project 2</div>
+                    <div class="topic">MakeMyTrip Student Loan Assistance App</div>
+                    <div class="des">
+                        <!-- 20 lorem -->
+                        This app offers financial assistance to students for their travel needs through structured loans. Students can explore various travel options and apply for loans directly within the app, making travel more affordable. The app features a seamless loan application process with flexible repayment plans, allowing students to pay back monthly. It integrates APIs to provide detailed information on travel destinations, recipes, and local experiences, offering a complete travel planning solution tailored for students.
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599</button>
+                </div>
+                <div class="detail">
+                    <div class="title">MakeMyTrip Student Loan Assistance App</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        This app offers financial assistance to students for their travel needs through structured loans. Students can explore various travel options and apply for loans directly within the app, making travel more affordable. The app features a seamless loan application process with flexible repayment plans, allowing students to pay back monthly. It integrates APIs to provide detailed information on travel destinations, recipes, and local experiences, offering a complete travel planning solution tailored for students.
+                    </div>
+                    <div class="specifications">
+                        <div>
+                            <p>Purpose</p>
+                            <p>Financial Assistance for Student Travel</p>
+                        </div>
+                        <div>
+                            <p>Loan Process</p>
+                            <p>Simple and User-Friendly</p>
+                        </div>
+                        <div>
+                            <p>Repayment Plans</p>
+                            <p>Flexible Monthly Payments</p>
+                        </div>
+                        <div>
+                            <p>Target Audience</p>
+                            <p>Students Planning Travel</p>
+                        </div>
+                        <div>
+                            <p>Platform</p>
+                            <p>Web and Mobile</p>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button><a href="https://github.com/Akshay-1507/Tour-Application">GITHUB</a></button>
+                        <!-- <button>ADD TO CART</button> -->
+                        <!-- <button>CHECKOUT</button> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="DALL·E 2024-10-05 19.16.28 - A world map with Hyderabad marked using a location pin. Around the city, the weather conditions are represented visually_ a sun for sunny, clouds for .webp">
+                <div class="introduce">
+                    <div class="title">Project 3</div>
+                    <div class="topic">Weather Finder App</div>
+                    <div class="des">
+                        <!-- 20 lorem -->
+                        The Weather Finder app provides real-time weather updates and forecasts for locations worldwide. Users can search for their desired city and receive detailed information, including temperature, humidity, wind speed, and weather conditions. The app features an intuitive interface, allowing users to save their favorite locations for quick access. With an interactive map and alerts for severe weather conditions, the Weather Finder app ensures users stay informed and prepared for any weather scenario, making it an essential tool for daily planning and travel.
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599</button>
+                </div>
+                <div class="detail">
+                    <div class="title">Weather Finder App</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        The Weather Finder app provides real-time weather updates and forecasts for locations worldwide. Users can search for their desired city and receive detailed information, including temperature, humidity, wind speed, and weather conditions. The app features an intuitive interface, allowing users to save their favorite locations for quick access. With an interactive map and alerts for severe weather conditions, the Weather Finder app ensures users stay informed and prepared for any weather scenario, making it an essential tool for daily planning and travel.
+                    </div>
+                    <div class="specifications">
+                        <div>
+                            <p>Purpose</p>
+                            <p>Real-Time Weather Updates</p>
+                        </div>
+                        <div>
+                            <p>Data Sources</p>
+                            <p>Multiple Weather APIs</p>
+                        </div>
+                        <div>
+                            <p>User Interface</p>
+                            <p>Intuitive and User-Friendly</p>
+                        </div>
+                        <div>
+                            <p>Features</p>
+                            <p>Current Weather, Forecasts, and Alerts</p>
+                        </div>
+                        <div>
+                            <p>Platforms</p>
+                            <p>Web and Mobile</p>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button><a href="https://github.com/Akshay-1507/weather-search">GITHUB</a></button>
+                        <!-- <button>ADD TO CART</button> -->
+                        <!-- <button>CHECKOUT</button> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="DALL·E 2024-10-05 19.18.03 - A visual representation of a Nike Air Jordan e-commerce clone website with full-stack development. The image shows a sleek and modern website layout d.webp">
+                <div class="introduce">
+                    <div class="title">Project 4</div>
+                    <div class="topic"> Nike Air Jordan E-Commerce Clone</div>
+                    <div class="des">
+                        <!-- 20 lorem -->
+                        The Nike Air Jordan E-Commerce Clone is a fully functional online shopping platform designed to replicate the features of the official Nike website. This clone showcases a sleek and modern interface where users can browse an extensive collection of Air Jordan shoes. With robust features such as a shopping cart, user authentication, and secure payment processing, customers can easily add items to their cart and complete their purchases. The app is built using a full-stack development approach, integrating frontend technologies like HTML, CSS, and JavaScript with a backend powered by Spring Boot and a MySQL database, ensuring a seamless shopping experience.
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599</button>
+                </div>
+                <div class="detail">
+                    <div class="title">Nike Air Jordan E-Commerce Clone</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        The Nike Air Jordan E-Commerce Clone is a fully functional online shopping platform designed to replicate the features of the official Nike website. This clone showcases a sleek and modern interface where users can browse an extensive collection of Air Jordan shoes. With robust features such as a shopping cart, user authentication, and secure payment processing, customers can easily add items to their cart and complete their purchases. The app is built using a full-stack development approach, integrating frontend technologies like HTML, CSS, and JavaScript with a backend powered by Spring Boot and a MySQL database, ensuring a seamless shopping experience.
+                    </div>
+                    <div class="specifications">
+                        <div>
+                            <p>Purpose</p>
+                            <p>Online Shopping for Air Jordan Products</p>
+                        </div>
+                        <div>
+                            <p>Features</p>
+                            <p>Product Browsing, Shopping Cart, and User Reviews</p>
+                        </div>
+                        <div>
+                            <p>Payment Methods</p>
+                            <p>Credit Card, PayPal, and Other Secure Options</p>
+                        </div>
+                        <div>
+                            <p>Backend Technology</p>
+                            <p>Spring Boot with MySQL Database</p>
+                        </div>
+                        <div>
+                            <p>Frontend Technology</p>
+                            <p>HTML, CSS, and JavaScript</p>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button><a href="https://github.com/Akshay-1507/Nike-Jordan-Clone">GITHUB</a></button>
+                        <!-- <button>ADD TO CART</button> -->
+                        <!-- <button>CHECKOUT</button> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="DALL·E 2024-10-05 19.19.38 - A simple and clean to-do list interface. The image shows a list of tasks with checkboxes next to each item. Some tasks are checked off, while others a.webp">
+                <div class="introduce">
+                    <div class="title">Project 5</div>
+                    <div class="topic">To-Do List App</div>
+                    <div class="des">
+                        <!-- 20 lorem -->
+                        The To-Do List App is a user-friendly application designed to help individuals organize their tasks and enhance productivity. Users can easily create, edit, and delete tasks, with options to mark items as completed. The app features a clean and intuitive interface, allowing users to prioritize tasks and set deadlines. With the ability to categorize tasks and add notes, users can manage their daily activities efficiently. The To-Do List App is perfect for anyone looking to stay organized, track progress, and achieve their goals with ease.
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599</button>
+                </div>
+                <div class="detail">
+                    <div class="title">To-Do List App</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        The To-Do List App is a user-friendly application designed to help individuals organize their tasks and enhance productivity. Users can easily create, edit, and delete tasks, with options to mark items as completed. The app features a clean and intuitive interface, allowing users to prioritize tasks and set deadlines. With the ability to categorize tasks and add notes, users can manage their daily activities efficiently. The To-Do List App is perfect for anyone looking to stay organized, track progress, and achieve their goals with ease.
+                    </div>
+                    <div class="specifications">
+                        <div>
+                            <p>Purpose</p>
+                            <p>Task Management and Organization</p>
+                        </div>
+                        <div>
+                            <p>Features</p>
+                            <p>Add, Edit, Delete, and Mark Tasks as Completed</p>
+                        </div>
+                        <div>
+                            <p>Data Storage</p>
+                            <p>Local Storage or Database</p>
+                        </div>
+                        <div>
+                            <p>Cross-Platform</p>
+                            <p>Web and Mobile Accessibility</p>
+                        </div>
+                        <div>
+                            <p>Reminders</p>
+                            <p>Set Due Dates and Notifications</p>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button><a href="https://github.com/Akshay-1507/ToDoList">GITHUB</a></button>
+                        <!-- <button>ADD TO CART</button> -->
+                        <!-- <button>CHECKOUT</button> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="download.png">
+                <div class="introduce">
+                    <div class="title">Project 6</div>
+                    <div class="topic">Find Your Recipe App</div>
+                    <div class="des">
+                        <!-- 20 lorem -->
+                        The Find Your Recipe App is an intuitive platform that helps users discover and create delicious meals based on available ingredients. Users can enter ingredients they have on hand and receive personalized recipe suggestions, complete with detailed instructions and cooking times. The app features a visually appealing interface showcasing vibrant images of dishes, making meal planning enjoyable. Users can save their favorite recipes, create shopping lists, and explore new culinary ideas. Perfect for home cooks and food enthusiasts, the Find Your Recipe App simplifies meal preparation and inspires creativity in the kitchen.
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599</button>
+                </div>
+                <div class="detail">
+                    <div class="title">Find Your Recipe App</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        The Find Your Recipe App is an intuitive platform that helps users discover and create delicious meals based on available ingredients. Users can enter ingredients they have on hand and receive personalized recipe suggestions, complete with detailed instructions and cooking times. The app features a visually appealing interface showcasing vibrant images of dishes, making meal planning enjoyable. Users can save their favorite recipes, create shopping lists, and explore new culinary ideas. Perfect for home cooks and food enthusiasts, the Find Your Recipe App simplifies meal preparation and inspires creativity in the kitchen.
+                    </div>
+                    <div class="specifications">
+                        <div>
+                            <p>Purpose</p>
+                            <p>Discover Recipes Based on Ingredients</p>
+                        </div>
+                        <div>
+                            <p>Features</p>
+                            <p>Search by Ingredients, Save Favorites, and Recipe Ratings</p>
+                        </div>
+                        <div>
+                            <p>Data Sources</p>
+                            <p>Multiple Recipe APIs</p>
+                        </div>
+                        <div>
+                            <p>Recipe Instructions</p>
+                            <p>Step-by-Step Cooking Guidance</p>
+                        </div>
+                        <div>
+                            <p>Categories</p>
+                            <p>Cuisine, Dietary Preferences, and Meal Types</p>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button><a href="https://github.com/Akshay-1507/recipe-site">GITHUB</a></button>
+                        <!-- <button>ADD TO CART</button> -->
+                        <!-- <button>CHECKOUT</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+            <button id="back">See All  &#8599</button>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="slider" style="--quantity: 7">
+            <div class="item" style="--position: 1"><img src="html.png" alt=""></div>
+            <div class="item" style="--position: 2"><img src="css.jpg" alt=""></div>
+            <div class="item" style="--position: 3"><img src="js.webp" alt=""></div>
+            <div class="item" style="--position: 4"><img src="java.png" alt=""></div>
+            <div class="item" style="--position: 5"><img src="git.jpeg" alt=""></div>
+            <div class="item" style="--position: 6"><img src="sql.png" alt=""></div>
+            <div class="item" style="--position: 7"><img src="OIP (1).jpeg" alt=""></div>
+            <!-- <div class="item" style="--position: 8"><img src="images/dragon_8.jpg" alt=""></div>
+            <div class="item" style="--position: 9"><img src="images/dragon_9.jpg" alt=""></div>
+            <div class="item" style="--position: 10"><img src="images/dragon_10.jpg" alt=""></div> -->
+        </div>
+        <div class="content">
+            <h1 data-content="CSS ONLY">
+               My SKILLS
+            </h1>
+            <div class="author">
+                <h2>Akshay Kanakari</h2>
+                <p><b>Student</b></p>
+                <p>
+                    web developer enthusiast
+                </p>
+            </div>
+            <div class="model"></div>
+        </div>
+    </div>
+    
+  
+
+
+    <script>
+        const apiKey = ""; // Add your API key if required
+        const jokeQuoteElement = document.getElementById("jokeQuote");
+
+        async function fetchJoke() {
+            const response = await fetch('https://official-joke-api.appspot.com/random_joke'); // Example joke API
+            const data = await response.json();
+            jokeQuoteElement.innerHTML = `${data.setup} - ${data.punchline}`;
+        }
+
+        document.getElementById("nextJoke").addEventListener("click", fetchJoke);
+
+        // Fetch the first joke when the page loads
+        fetchJoke();
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
